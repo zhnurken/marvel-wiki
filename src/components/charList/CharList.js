@@ -79,7 +79,7 @@ class CharList extends Component {
     }
 
     render(){
-        const {charList, loading, error, offset, newItemLoading, chaeEnded} = this.state;
+        const {charList, loading, error, offset, newItemLoading, charEnded} = this.state;
         const items = this.renderItems(charList);
         const errorMessage = error ? <ErrorMessage/> : null;
         const spinner = loading ? <Spinner/> : null;
@@ -101,5 +101,6 @@ class CharList extends Component {
         )
     }
 }
+
 
 export default CharList;

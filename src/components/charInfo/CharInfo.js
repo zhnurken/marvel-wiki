@@ -4,6 +4,7 @@ import Spinner from '../spinner/Spinner';
 import ErrorMessage from '../errorMessage/errorMessage';
 import Skeleton from '../skeleton/Skeleton'
 import MarvelService from '../../services/MarvelServices';
+import { PropTypes } from 'prop-types';
 
 class CharInfo extends Component {
 
