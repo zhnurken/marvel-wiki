@@ -1,4 +1,4 @@
-import { useState, useEffect } from "react";
+import { useState, useEffect} from "react";
 import useMarvelService from "../../services/MarvelServices";
 import Spinner from "../spinner/Spinner";
 import ErrorMessage from "../errorMessage/ErrorMessage";
@@ -11,13 +11,10 @@ const setContent = (process, Component, newItemLoading) => {
   switch (process) {
     case 'waiting':
       return <Spinner />;
-      break;
     case 'loading':
       return newItemLoading? <Component /> : <Spinner />;
-      break;
     case 'confirmed':
       return <Component />;
-      break;
     case 'error':
       return <ErrorMessage />;
     default:
