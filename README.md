@@ -29,7 +29,7 @@ Here you can also select a comic book, and it will show the information
 
 <img width="439" alt="Screenshot_5" src="https://user-images.githubusercontent.com/17591510/223113963-b84f91bf-8bab-45f5-afc8-3f0c0f7bed24.png">
 
-Oh! I forgot one more thing. In the first section, you might have seen the search section under the plug. There you can write the hero's name and it will find it for you. (Although it needs some tweaking). And, of course, there's a page about the hero.
+Oh! I forgot one more thing. In the first section, you might have seen the search section under the stub. There you can write the hero's name and it will find it for you. (Although it needs some tweaking). And, of course, there's a page about the hero.
 
 <img width="437" alt="Screenshot_7" src="https://user-images.githubusercontent.com/17591510/223114572-1c350766-e44d-49e9-adac-eb850f1bd01c.png">
 
