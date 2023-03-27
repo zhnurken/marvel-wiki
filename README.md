@@ -1,70 +1,35 @@
-# Getting Started with Create React App
+Hello, ladies and gentlemen! This is one of the my React pet project. The project is related to the Marvel Universe. You can see the project itself here: [marvel-wiki-green.vercel.app](https://marvel-wiki-green.vercel.app/). The API was taken from https://developer.marvel.com
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+As soon as you enter, you will be greeted with this view:
 
-## Available Scripts
+<img width="460" alt="Screenshot_8" src="https://user-images.githubusercontent.com/17591510/223112265-aa85c4bf-0441-4ef4-973f-79d0dfa6a8d1.png">
 
-In the project directory, you can run:
 
-### `yarn start`
+At the top you will see a section where you can see a random hero:
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+<img width="683" alt="Screenshot_1" src="https://user-images.githubusercontent.com/17591510/223112455-77b58447-478c-403b-bcbd-5f1461f0f330.png">
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+Some heroes may not have an avatar or description. But it's not my fault. This means an error on the part of the API.
 
-### `yarn test`
+At the bottom you will see a list of heroes and a stub on the right side. As you select a character, the comic book list where the character appeared will appear in place of the stub.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+<img width="503" alt="Screenshot_3" src="https://user-images.githubusercontent.com/17591510/223113227-f7d9264c-1d53-4965-bc31-e90fe9e477fd.png">
 
-### `yarn build`
+<img width="430" alt="Screenshot_6" src="https://user-images.githubusercontent.com/17591510/223113300-5ae6af55-f0a0-4ca3-a081-61739e9b8e99.png">
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+Also at the top you might have seen the comic strip section: 
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+<img width="426" alt="Screenshot_9" src="https://user-images.githubusercontent.com/17591510/223113627-b3e06825-b426-478d-b784-8c3d139ff799.png">
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+If you click on it, you'll go here: 
 
-### `yarn eject`
+<img width="447" alt="Screenshot_4" src="https://user-images.githubusercontent.com/17591510/223113781-0c23942c-a777-4da4-a111-5fa93e246a2f.png">
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+Here you can also select a comic book, and it will show the information
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+<img width="439" alt="Screenshot_5" src="https://user-images.githubusercontent.com/17591510/223113963-b84f91bf-8bab-45f5-afc8-3f0c0f7bed24.png">
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+Oh! I forgot one more thing. In the first section, you might have seen the search section under the stub. There you can write the hero's name and it will find it for you. (Although it needs some tweaking). And, of course, there's a page about the hero.
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+<img width="437" alt="Screenshot_7" src="https://user-images.githubusercontent.com/17591510/223114572-1c350766-e44d-49e9-adac-eb850f1bd01c.png">
 
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `yarn build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
